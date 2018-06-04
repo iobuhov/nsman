@@ -1,0 +1,31 @@
+{
+  "name": "nsman",
+  "version": "0.1.0",
+  "description": "tool to manage es6 modules and namespaces",
+  "main": "index.js",
+  "bin": {
+    "nsman": "./bin/nsman.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ns",
+    "tool",
+    "modules",
+    "es6",
+    "es",
+    "namespace"
+  ],
+  "author": "iobuhov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0"
+  }
+}
