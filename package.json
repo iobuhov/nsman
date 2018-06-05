@@ -7,7 +7,7 @@
     "nsman": "./bin/nsman.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require babel-core/register"
   },
   "keywords": [
     "ns",
@@ -20,12 +20,16 @@
   "author": "iobuhov",
   "license": "ISC",
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "rimraf": "^2.6.2"
   }
 }
